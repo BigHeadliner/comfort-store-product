@@ -1,0 +1,91 @@
+ 
+
+@font-face {
+    font-family: 'HKGrotesk-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('HKGrotesk-Regular'),
+        url('../fonts/HKGrotesk-Regular.woff2') format('font-woff2'),
+        url('../fonts/HKGrotesk-Regular.woff') format('font-woff');
+    font-display: swap;
+}  
+ 
+@font-face {
+    font-family: 'HKGrotesk-Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: local('HKGrotesk-Medium'),
+        url('../fonts/HKGrotesk-Medium.woff2') format('font-woff2'),
+        url('../fonts/HKGrotesk-Medium.woff') format('font-woff');
+    font-display: swap;
+}  
+ 
+@font-face {
+    font-family: 'Outfit-Light';
+    font-weight: 300;
+    font-style: normal;
+    src: local('Outfit-Light'),
+        url('../fonts/Outfit-Light.woff2') format('font-woff2'),
+        url('../fonts/Outfit-Light.woff') format('font-woff');
+    font-display: swap;
+}   
+ 
+@font-face {
+    font-family: 'Outfit-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Outfit-Regular'),
+        url('../fonts/Outfit-Regular.woff2') format('font-woff2'),
+        url('../fonts/Outfit-Regular.woff') format('font-woff');
+    font-display: swap;
+}      
+
+@font-face {
+    font-family: 'Outfit-Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: local('Outfit-Medium'),
+        url('../fonts/Outfit-Medium.woff2') format('font-woff2'),
+        url('../fonts/Outfit-Medium.woff') format('font-woff');
+    font-display: swap;
+}      
+
+@font-face {
+    font-family: 'Outfit-SemiBold';
+    font-weight: 600;
+    font-style: normal;
+    src: local('Outfit-SemiBold'),
+        url('../fonts/Outfit-SemiBold.woff2') format('font-woff2'),
+        url('../fonts/Outfit-SemiBold.woff') format('font-woff');
+    font-display: swap;
+}  
+
+@font-face {
+    font-family: 'HKGrotesk-SemiBoldLegacy';
+    font-weight: 600;
+    font-style: normal;
+    src: local('HKGrotesk-SemiBoldLegacy'),
+        url('../fonts/HKGrotesk-SemiBoldLegacy.woff2') format('font-woff2'),
+        url('../fonts/HKGrotesk-SemiBoldLegacy.woff') format('font-woff');
+    font-display: swap;
+}   
+
+@font-face {
+    font-family: 'HKGrotesk-RegularLegacy';
+    font-weight: 400;
+    font-style: normal;
+    src: local('HKGrotesk-RegularLegacy'),
+        url('../fonts/HKGrotesk-RegularLegacy.woff2') format('font-woff2'),
+        url('../fonts/HKGrotesk-RegularLegacy.woff') format('font-woff');
+    font-display: swap;
+}    
+
+@font-face {
+    font-family: 'GillSans-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('GillSans-Regular'),
+        url('../fonts/GillSans-Regular.woff2') format('font-woff2'),
+        url('../fonts/GillSans-Regular.woff') format('font-woff');
+    font-display: swap;
+}  

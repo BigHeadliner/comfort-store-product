@@ -1,0 +1,73 @@
+  $main-green-color: #3A5041; 
+  $main-text-color: #848484;     
+  $main-btn-color: #B58269;    
+
+  /*-- fonts --*/  
+     
+  %hkgrotesk-400{ 
+    font-family: 'HKGrotesk-Regular';    
+    font-weight: 400;
+   }   
+    
+   %hkgrotesk-500{ 
+    font-family: 'HKGrotesk-Medium';    
+    font-weight: 500;
+   }   
+    
+   %hkgrotesk-600legacy{ 
+    font-family: 'HKGrotesk-SemiBoldLegacy';   
+    font-weight: 600;
+   }  
+     
+   %hkgrotesk-400legacy{ 
+    font-family: 'HKGrotesk-RegularLegacy';   
+    font-weight: 400;
+   }   
+
+   %outfit-300{ 
+    font-family: 'Outfit-Light'; 
+    font-weight: 300;
+   } 
+    
+   %outfit-400{ 
+    font-family: 'Outfit-Regular'; 
+    font-weight: 400;
+   } 
+    
+   %outfit-500{ 
+    font-family: 'Outfit-Medium'; 
+    font-weight: 500;
+   } 
+     
+   %outfit-600{ 
+    font-family: 'Outfit-SemiBold'; 
+    font-weight: 600;
+   }
+   
+   %gillsans-400{  
+    font-family: 'GillSans-Regular';
+    font-weight: 400;
+   } 
+    
+    //  buttons  
+     
+    .main-btn {
+      color: #FFF;
+      background: $main-btn-color;
+      font-size: 25px;
+      border: 1px solid transparent;
+      @extend %hkgrotesk-400;
+      cursor: pointer;
+      transition: all .5s;
+      // &:hover {
+      //   color: #FFF; 
+      //   background: $main-green-color;
+      // }
+    }
+   
+  .main-title{ 
+    @extend %outfit-500; 
+    font-size: 75px; 
+    line-height: 95px; 
+    color: #FFF; 
+  }
